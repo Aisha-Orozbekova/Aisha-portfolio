@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aida's Creative Portfolio</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #111111;
+            margin: 0;
+            padding: 40px 60px;
+            max-width: 850px;
+        }
+
+        /* Шапка и верхний текст */
+        .top-subtitle {
+            font-size: 13px;
+            color: #555555;
+            margin: 0 0 4px 0;
+        }
+        .top-category {
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin: 0 0 20px 0;
+            color: #222222;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            margin: 0 0 15px 0;
+            color: #333333;
+        }
+
+        nav {
+            margin-bottom: 25px;
+        }
+        nav a {
+            color: #0000ee;
+            text-decoration: underline;
+            margin-right: 12px;
+            font-size: 15px;
+        }
+
+        /* Баннер HERO */
+        .hero-banner {
+            width: 100%;
+            max-width: 750px;
+            height: auto;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        /* Заголовки секций */
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 25px 0 15px 0;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0 6px 0;
+        }
+
+        p, li {
+            font-size: 15px;
+            line-height: 1.5;
+            margin: 6px 0;
+        }
+
+        /* Цитата */
+        blockquote {
+            margin: 15px 0 15px 30px;
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        /* Раскрывающиеся тумблеры (details) */
+        details {
+            margin: 12px 0;
+            font-size: 15px;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        details p {
+            margin: 6px 0 0 20px;
+        }
+
+        /* Линии разделения */
+        hr {
+            border: 0;
+            border-top: 1px solid #d0d0d0;
+            margin: 25px 0;
+        }
+
+        /* Список */
+        ul, ol {
+            padding-left: 25px;
+            margin: 10px 0;
+        }
+
+        /* Шкалы progress и meter */
+        progress, meter {
+            vertical-align: middle;
+            margin: 0 8px;
+        }
+        progress {
+            width: 170px;
+            height: 14px;
+        }
+        meter {
+            width: 120px;
+            height: 14px;
+        }
+
+        /* Таблица */
+        table {
+            border-collapse: collapse;
+            margin: 15px 0;
+            width: 100%;
+            max-width: 420px;
+        }
+        th, td {
+            border: 1px solid #888888;
+            padding: 5px 12px;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            font-weight: bold;
+            background-color: #f7f7f7;
+        }
+
+        /* Форма */
+        fieldset {
+            border: 1px solid #999999;
+            padding: 15px 20px;
+            max-width: 480px;
+            margin-top: 10px;
+        }
+        legend {
+            padding: 0 5px;
+            font-size: 14px;
+        }
+        .form-group {
+            margin-bottom: 12px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 260px;
+            padding: 4px;
+            font-size: 14px;
+            font-family: inherit;
+        }
+        .form-group textarea {
+            width: 320px;
+            height: 70px;
+        }
+
+        /* Изображение проекта */
+        .project-img {
+            width: 100%;
+            max-width: 550px;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+        }
+
+        /* Медиа */
+        audio, video {
+            display: block;
+            margin: 10px 0 20px 0;
+        }
+
+        .hint-text {
+            font-size: 12px;
+            color: #666666;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Верхняя надпись -->
+    <p class="top-subtitle">Continue your portfolio</p>
+    <p class="top-category">ALA-TOO COLLEGE · WEB PROGRAMMING</p>
+
+    <!-- HEADER / ШАПКА -->
+    <header>
+        <h1>Aisha's Creative Portfolio</h1>
+        <p class="subtitle">Student. Curious learner. Future web developer.</p>
+        
+        <!-- НАВИГАЦИЯ -->
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">My work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- БАННЕР HERO -->
+    <img src="C:\Users\User\Downloads\hero.svg" alt="Header Graphic with Computer and Mountains" class="hero-banner">
+
+    <main>
+        <!-- 01 — ABOUT ME -->
+        <section id="about">
+            <h2>01 — About Me</h2>
+            <p>Hello! I'm <strong>Aisha</strong>, a student at Ala-Too College in Bishkek.</p>
+            <p>I enjoy building useful pages, taking photos and learning how the web works.<br>
+            My current goal is to create a complete portfolio with <em>clear and meaningful HTML</em>.</p>
+
+            <blockquote>
+                Small steps, regular practice, better websites.
+            </blockquote>
+
+            <details>
+                <summary>What am I learning this month?</summary>
+                <p>I am practicing HTML semantic structure, accessible forms, tables, and embedding audio/video files.</p>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- 02 — SKILLS & LEARNING -->
+        <section id="skills">
+            <h2>02 — Skills &amp; Learning</h2>
+            
+            <ul>
+                <li>Semantic page structure: header, main and footer</li>
+                <li>Links, lists and images</li>
+                <li>Audio, video and accessible form labels</li>
+            </ul>
+
+            <p>
+                Portfolio sections completed: 
+                <progress value="3" max="5"></progress> 
+                3 / 5
+            </p>
+
+            <p>
+                My HTML self-assessment: 
+                <meter value="70" min="0" max="100" low="50" high="80" optimum="90"></meter> 
+                70 / 100
+            </p>
+
+            <p>
+                Today's written result: <strong>3 sections completed</strong>
+            </p>
+
+            <!-- ТАБЛИЦА -->
+            <h4 style="margin-bottom: 6px; margin-top: 20px; font-size: 15px;">My weekly learning plan</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Goal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Monday</strong></td>
+                        <td>HTML structure</td>
+                        <td>Organize my page</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wednesday</strong></td>
+                        <td>Media and forms</td>
+                        <td>Add a contact form</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Friday</strong></td>
+                        <td>Practice</td>
+                        <td>Check and improve my work</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- 03 — MY WORK -->
+        <section id="work">
+            <h2>03 — My Work</h2>
+
+            <h3>My First Portfolio</h3>
+            <p style="font-size: 12px; color: #666666; margin-top: -4px;">Started on 1 September 2026 · Personal project</p>
+
+            <!-- КАРТИНКА ПРОЕКТА -->
+            <img src="C:\Users\User\Downloads\project.svg" alt="Project preview screenshot" class="project-img">
+
+            <p>A simple page that presents my skills and learning journey.</p>
+            <p>I built this page to introduce myself and keep my work in one place.</p>
+
+            <ol>
+                <li>Create the header, main content and footer.</li>
+                <li>Add About, Skills, Work and Contact sections.</li>
+                <li>Test links, media files and form labels.</li>
+            </ol>
+
+            <details>
+                <summary>What was difficult?</summary>
+                <p>Understanding correct relative file paths for images and connecting form labels using matching ID attributes.</p>
+            </details>
+
+            <p style="margin-top: 15px;"><a href="#contact" style="color: #0000ee;">Ask me about this project →</a></p>
+
+            <h3 style="margin-top: 25px;">Media Practice</h3>
+            <p>A short sample sound:</p>
+            <audio controls>
+                <source src="intro.wav" type="audio/wav">
+                <source src="intro.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p>A short portfolio preview:</p>
+            <video controls width="450">
+                <source src="C:\Users\User\Downloads\portfolio-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <hr>
+
+        <!-- 04 — CONTACT -->
+        <section id="contact">
+            <h2>04 — Let's Connect</h2>
+            <p>Have a question about my work? Write a practice message below:</p>
+
+            <form>
+                <fieldset>
+                    <legend>Contact form</legend>
+
+                    <div class="form-group">
+                        <label for="user-name">Your name</label>
+                        <input type="text" id="user-name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-email">Email address</label>
+                        <input type="email" id="user-email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topic-select">Topic</label>
+                        <select id="topic-select" name="topic">
+                            <option value="project">My project</option>
+                            <option value="question">General question</option>
+                            <option value="other">Other topic</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-message">Message</label>
+                        <textarea id="user-message" name="message" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" disabled>Send message</button>
+                    <button type="reset">Clear form</button>
+                </fieldset>
+            </form>
+
+            <p class="hint-text">Practice form: sending is disabled until a handler is connected.</p>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer style="font-size: 13px; color: #555555; margin-bottom: 30px;">
+        <p>© 2026 Aida · Made with HTML · Bishkek, Kyrgyzstan</p>
+        <p><a href="#" style="color: #0000ee;">↑ Back to top</a></p>
+    </footer>
+
+</body>
+</html>
